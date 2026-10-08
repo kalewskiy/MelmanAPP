@@ -15,7 +15,7 @@ jobs:
         run: |
           rm -rf /tmp/melman_project
           mkdir -p /tmp/melman_project
-          unzip -q "app/MelmanAPP_GitHub_Project.zip" -d /tmp/melman_project
+          unzip -q "MelmanAPP_GitHub_Project.zip" -d /tmp/melman_project
 
           PROJECT_ROOT="$(find /tmp/melman_project -maxdepth 4 -type f -name settings.gradle -print -quit | xargs -r dirname)"
 
