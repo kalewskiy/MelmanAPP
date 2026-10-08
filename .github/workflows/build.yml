@@ -32,7 +32,7 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-        - name: Install Android SDK
+      - name: Install Android SDK
         run: |
           mkdir -p "$ANDROID_HOME/cmdline-tools"
           cd /tmp
